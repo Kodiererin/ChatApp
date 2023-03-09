@@ -24,8 +24,7 @@ public class ClientHandler implements Runnable
 
             new OutputStreamWriter(socket.getOutputStream());
 
-
-
+            
 //			we will use buffer which will make the communication more efficient.
 
             this.bufferedWriter = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));			// this is what the client is sending
